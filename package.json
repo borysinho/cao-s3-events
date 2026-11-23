@@ -12,7 +12,8 @@
     "test": "node --test tests/*.test.ts",
     "migrate": "node scripts/service.ts migrate",
     "db:setup": "node scripts/setup-db.ts",
-    "seed": "node scripts/seed.ts"
+    "seed": "node scripts/seed.ts",
+    "package": "node scripts/package.ts"
   },
   "dependencies": {
     "ajv": "^8.20.0",
